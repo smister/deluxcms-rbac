@@ -31,7 +31,7 @@ $nodes = \deluxcms\rbac\models\Node::getParentNodes();
                 ],
                 'columns' => [
                     [
-                        'class' => 'yii\grid\checkboxColumn',
+                        'class' => 'yii\grid\CheckboxColumn',
                         'options' => [
                             'style' => 'width:10px'
                         ]
